@@ -1,0 +1,2 @@
+Cmnd_Alias ZABBIX_CMD = /etc/zabbix/scripts_mconf/security_meltdown/check.sh, /usr/bin/lsof
+zabbix ALL = (root) NOPASSWD: ZABBIX_CMD
